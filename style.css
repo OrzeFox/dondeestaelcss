@@ -1,18 +1,72 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing:border-box;
 }
-
 
 .card{
     background-color: grey;
     width: 400px;
     height: 800px;
     font-family: sans-serif;
+
 }
 
-.title{
-    background-color: rgb(132, 231, 124);
-    align-content: center;
+form{
+    margin: 20px;
     border: 1px solid red;
+    height: 800px;
+}
+.title{
+    margin: 10px;
+    text-align: center ;
+    border: 1px solid blue;
+}
+
+.subtitle{
+    margin: 0 10px;
+    text-align: center ;
+    border: 1px solid blue;
+    font-weight: bold;
+}
+
+.social-login{
+    border: 1px solid blue;
+    margin: 0 15px ;
+    display: flex;
+    height: 45px;
+}
+
+.google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 5px;
+    width: 300px;
+    font-weight: bold;
+
+  }
+  
+  .google-btn img {
+    margin-right: 5px;
+    height: 25px;
+
+  }
+  .btn-text{
+    border: 1px solid greenyellow;
+  }
+
+.fb-btn{
+
+    width: 45px ;
+}
+.or{
+    text-align: center;
+}
+.email-login{
+    display: flex;
+    justify-content: center;
+    align-content: center;bu
+    margin: 2px;
 }
