@@ -65,8 +65,8 @@ form{
     text-align: center;
 }
 .email-login{
+    justify-content: flex-start;
+    align-content: space-around;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    margin: 2px;
 }
+
