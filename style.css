@@ -2,39 +2,50 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #e2e5f6;
 }
 
 .card{
-    background-color: grey;
-    width: 400px;
-    height: 800px;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 
 }
 
 form{
+    background-color: #fffefe;
     margin: 20px;
-    border: 1px solid red;
-    height: 800px;
+    border: solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #dfdef1;
+    width: 360px;
 }
 .title{
     margin: 10px;
-    text-align: center ;
-    border: 1px solid blue;
+    text-align: center ;    
 }
 
 .subtitle{
+    font-size: 16px;
+    display: flex;
     margin: 0 10px;
-    text-align: center ;
-    border: 1px solid blue;
+    justify-content: center ;
+
     font-weight: bold;
+}
+.subtitle a{
+    margin: 0 3px;
 }
 
 .social-login{
-    border: 1px solid blue;
-    margin: 0 15px ;
+order: 1px solid ;
     display: flex;
-    height: 45px;
+    height: 40px;
 }
 
 .google-btn {
@@ -42,31 +53,84 @@ form{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right: 5px;
-    width: 300px;
+    margin: 0px 10px 0px 0px;
+    width: 100%;
     font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #f4eeee;
+    background-color: #fffefe;
 
   }
   
   .google-btn img {
     margin-right: 5px;
     height: 25px;
+    border-radius: 10px;
 
-  }
-  .btn-text{
-    border: 1px solid greenyellow;
   }
 
 .fb-btn{
-
+    background-color: #fffefe;
+    padding: 5px;
     width: 45px ;
+    border-radius: 5px;
+    border: 2px solid #6765c2;
+    
 }
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+#hr2{ 
+
+    width: 100%;
+    opacity: .4;
+  }
+#hr1{ 
+    width: 100%;
+    opacity: .4;
+  }
 .or{
+    display: flex;
     text-align: center;
+    margin: 5px;
+    font-weight: bold;
 }
 .email-login{
-    justify-content: flex-start;
-    align-content: space-around;
     display: flex;
+    flex-direction: column;
 }
 
+.email-login label{
+    color: #c3c0c0;
+}
+.email-login input{
+    border-radius: 5px;
+    border: 2px solid #c3c0c0;
+    height: 30px;
+    padding: 20px;
+    margin: 10px 0;
+    color: #c3c0c0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cta-btn{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 ;
+    height: 50px;
+    background-color: #4744b6;
+    border-radius: 10px;
+    color: #fffefe;
+}
+.forget-pass{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
